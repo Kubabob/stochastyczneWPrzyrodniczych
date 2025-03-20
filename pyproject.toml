@@ -1,0 +1,12 @@
+[project]
+name = "stochastyczne-w-przyrodniczych"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.1",
+    "pyqt6>=6.8.1",
+    "seaborn>=0.13.2",
+]
