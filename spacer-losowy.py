@@ -206,6 +206,7 @@ def histogram_wielu_spacerow(lista_spacerow: list) -> None:
     plt.title("Histogram of Final Positions")
     plt.xlabel("Position")
     plt.ylabel("Frequency")
+    plt.show()
 
 
 def prawdopodobienstwo_powrotu(lista_spacerow: list) -> float:
@@ -236,16 +237,16 @@ def prawdopodobienstwo_powrotu3D(lista_spacerow: list) -> float:
 if __name__ == "__main__":
     kroki = spacer(500)
     print(kroki)
-    pokaz_kroki(kroki)
+    # pokaz_kroki(kroki)
 
-    pokaz_wiele_spacerow(wiele_spacerow(1000, 100))
-    pokaz_wiele_spacerow2D(wiele_spacerow2D(1000, 100))
-    pokaz_wiele_spacerow3D(wiele_spacerow3D(10, 100))
+    # pokaz_wiele_spacerow(wiele_spacerow(1000, 100))
+    # pokaz_wiele_spacerow2D(wiele_spacerow2D(1000, 100))
+    # pokaz_wiele_spacerow3D(wiele_spacerow3D(10, 100))
 
-    wartosc_oczekiwana(wiele_spacerow(1000, 100))
-    prawdopodobienstwo_bycia_w_miejscu(30, wiele_spacerow(1000, 100))
-    histogram_wielu_spacerow(wiele_spacerow(1000, 100))
+    # print(wartosc_oczekiwana(wiele_spacerow(1000, 100)))
+    # print(prawdopodobienstwo_bycia_w_miejscu(30, wiele_spacerow(1000, 100)))
+    # histogram_wielu_spacerow(wiele_spacerow(1000, 100))
 
-    prawdopodobienstwo_powrotu(wiele_spacerow(1000, 1000))
-    prawdopodobienstwo_powrotu2D(wiele_spacerow2D(1000, 1000))
-    prawdopodobienstwo_powrotu3D(wiele_spacerow3D(1000, 1000))
+    # print(prawdopodobienstwo_powrotu(wiele_spacerow(1000, 1000)))
+    # print(prawdopodobienstwo_powrotu2D(wiele_spacerow2D(1000, 1000)))
+    # print(prawdopodobienstwo_powrotu3D(wiele_spacerow3D(1000, 1000)))
