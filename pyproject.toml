@@ -6,8 +6,10 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "ipykernel>=6.29.5",
+    "jupyter-contrib-nbextensions>=0.7.0",
     "marimo>=0.13.11",
     "matplotlib>=3.10.1",
+    "notebook==6.1.5",
     "pyqt6>=6.8.1",
     "seaborn>=0.13.2",
 ]
