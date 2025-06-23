@@ -1,15 +1,18 @@
 [project]
-name = "stochastyczne-w-przyrodniczych"
+name = "stochastic-models-in-science"
 version = "0.1.0"
-description = "Add your description here"
+description = "Implementations of various stochastic processes and models commonly used in natural sciences"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "numpy>=1.26.0",
+    "matplotlib>=3.10.1",
+    "seaborn>=0.13.2",
+    "scipy>=1.12.0",
+    "pandas>=2.2.0",
     "ipykernel>=6.29.5",
     "jupyter-contrib-nbextensions>=0.7.0",
     "marimo>=0.13.11",
-    "matplotlib>=3.10.1",
     "notebook==6.1.5",
     "pyqt6>=6.8.1",
-    "seaborn>=0.13.2",
 ]
